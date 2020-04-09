@@ -17,7 +17,9 @@
   },
   "homepage": "https://github.com/dannyhkim/Authentication#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.7"
   },
   "devDependencies": {
     "nodemon": "^2.0.3"
