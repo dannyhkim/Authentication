@@ -1,0 +1,25 @@
+{
+  "name": "authentication",
+  "version": "1.0.0",
+  "description": "Building a Node.js api that handles authentication for any applications using MongoDB, Express, JWT",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dannyhkim/Authentication.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dannyhkim/Authentication/issues"
+  },
+  "homepage": "https://github.com/dannyhkim/Authentication#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
+}
