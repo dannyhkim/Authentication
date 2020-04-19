@@ -35,6 +35,7 @@ router.post('/register', async (req, res) => {
     }
 });
 
+// login route /api/user/login
 router.post('/login', async (req, res) => {
     // Validate data before creating new user
     const { error } = loginValidation(req.body);
